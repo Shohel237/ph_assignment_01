@@ -61,7 +61,6 @@ nav{
 
 /* banner section style */
 .banner_section{
-    background-image: url('/assets/Hero-bg.png');
     display: flex;
     flex-direction: column;
     align-items: center;
