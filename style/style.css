@@ -146,6 +146,9 @@ main{
     align-items: center;
     gap: 45px;
 }
+.my_current_target>p{
+    text-align: center;
+}
 .my_current_target_cards{
     display: flex;
     gap: 24px;
