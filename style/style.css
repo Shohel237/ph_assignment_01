@@ -18,6 +18,10 @@ body{
     font-weight: 600;
     padding: 17px 24px;
 }
+.primary_button:hover{
+    background-color: rgb(194, 193, 193);
+    cursor: pointer;
+}
 .section_title{
     color: rgb(13, 19, 33);
     font-size: 32px;
@@ -67,6 +71,12 @@ nav{
     padding: 26px 221px 44px 221px;
     text-align: center;
     gap: 60px;
+}
+.banner_section button>a{
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+    font-weight: 700;
 }
 .banner_img{
     width: 131px;
@@ -155,6 +165,9 @@ a{
     font-size: 16px;
     font-weight: 700;
 }
+a:hover{
+    color: blue;
+}
 .my_current_target_cards_01{
     background-color: rgba(255, 76, 30, 0.05);
     width: 364px;
@@ -208,3 +221,49 @@ a{
 .card_description p{
     margin-bottom: 24px;
 }
+
+/* footer start */
+#footer{
+    background-image: url(/assets/handshake.jpg); height: 100vh; width: 100%; background-position: center;
+    padding: 64px 48px;
+    height: 314px;
+    width: 1140px;
+    margin: 0 auto;
+    border-radius: 16px;
+    background-color: rgba(0, 0, 0, 0.2);
+    background-blend-mode: overlay;
+}
+#footer h1{
+    color: white;
+    font-size: 32px;
+    font-weight: 700;
+    text-align: center;
+    margin: 16px auto;
+}
+#footer p{
+    color: white;
+    text-align: center;
+}
+.input{
+    display: flex;
+}
+.message{
+    width: 548px;
+    height: 57px;
+    padding: 19px 20px 19px 20px;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    border-radius: 8px;
+    margin: 50px 15px 50px 180px;
+}
+.submit{
+    padding: 15px;
+    margin: 50px 15px;
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 8px;
+}
+.submit:hover{
+    background-color: rgb(194, 193, 193);
+    cursor: pointer;
+}
+
