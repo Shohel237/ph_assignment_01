@@ -266,4 +266,20 @@ a:hover{
     background-color: rgb(194, 193, 193);
     cursor: pointer;
 }
+.contact_info{
+    margin: 100px 190px 30px 190px;
+    display: flex;
+    justify-content: space-between;
+}
+i{
+    font-size: 30px;
+    color: blue;
+    margin: 0 12px;
+}
+.fa-github{
+    color: black;
+}
+i:hover{
+    cursor: pointer;
+}
 
