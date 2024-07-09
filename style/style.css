@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: Azeret Mono;
+}
+
+/* shared style */
+.primary_button{
+    border: 1px solid rgb(13, 19, 33);
+    border-radius: 8px;
+    opacity: 0.8;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 17px 24px;
+}
+.section_title{
+    color: rgb(13, 19, 33);
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 37px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+.why_dev_descrip{
+    color: rgba(13, 19, 33, 0.7);
+    font-family: Azeret Mono;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-bottom: 16px;
+}
+p{
+    color:rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    opacity: 0.7;
+}
+/* header style starts */
+nav{
+    display: flex;
+    margin: 35px 166px 35px 150px;
+    align-items: center;
+    justify-content: space-between;
+}
+.nav_title{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 28px;
+    font-weight: 800;
+}
+
+/* banner section style */
+.banner_section{
+    background-image: url('/assets/Hero-bg.png');
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 26px 221px 44px 221px;
+    text-align: center;
+    gap: 60px;
+}
+.banner_img{
+    width: 131px;
+    height: 137px;
+}
+.banner_title{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 48px;
+    font-weight: 800;
+    line-height: 68px;
+    letter-spacing: 0%;
+    text-align: center;
+
+}
+.banner_section> button{
+    background-color: rgb(13, 19, 33);
+    opacity: unset;
+    color: white;
+}
+
+/* main starts */
+main{
+    max-width: 946px;
+    margin: 154px auto;
+}
+.why_development_heading_description{
+    text-align: center;
+    margin-top: 24px;
+}
+.why_development_sections{
+    display: flex;
+    justify-content: space-between;
+    gap: 110px;
+    align-items: center;
+}
+.why_development_sections_description{
+    margin: 96px auto;
+   
+}
+.why_development_sections>img{
+    width: 260px;
+    height: 217px;
+}
+.why_development_sections_description> .primary_button{
+    margin-top: 36px;
+    border-radius: unset;
+}
+
+.inspiration{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.inspiration> h2{
+    margin: 24px auto;
+}
+.inspiration iframe{
+    margin-top: 80px;
+}
+/* target section starts */
+.my_current_target{
+    max-width: 1140px;
+    margin: 150px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 45px;
+}
+.my_current_target_cards{
+    display: flex;
+    gap: 24px;
+    justify-content: space-evenly;
+}
+.my_current_target_cards h5{
+    color: rgb(13, 19, 33);
+    font-size: 24px;
+    font-weight: 800;
+    margin: 24px 0;
+}
+.my_current_target_cards p{
+    margin-bottom: 24px;
+}
+.my_current_target_cards a{
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 700;
+}
+.my_current_target_cards_01{
+    background-color: rgba(255, 76, 30, 0.05);
+    width: 364px;
+    height: 360px;
+    padding: 40px;
+}
+.my_current_target_cards_02{
+    background-color: rgba(0, 76, 232, 0.05);
+    width: 364px;
+    height: 360px;
+    padding: 40px;
+}
+.my_current_target_cards_03{
+    background-color: rgba(255, 223, 0, 0.05);
+    width: 364px;
+    height: 360px;
+    padding: 40px;
+}
